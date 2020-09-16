@@ -2,48 +2,63 @@ import React from "react"
 
 function BookingForm(props){
     return(
-        <form onSubmit={props.handleConfirm}>
-            <label>First Name: 
-                <input type="text" name="firstName" value={props.user.firstName} onChange={props.handleChange}></input>
-            </label>
-            <label>Last Name: 
-                <input type="text" name="lastName" value={props.user.lastName} onChange={props.handleChange}></input>
-            </label>
-            <label>Email: 
-                <input type="email" name="email" value ={props.user.email} onChange={props.handleChange}></input>
-            </label>
-            <label>Address: 
-                <input type="text" name="address" value={props.user.address} onChange={props.handleChange}></input>
-            </label>
-            <label>Rooms: 
-                <select name="rooms" value={props.user.rooms} onChange={props.handleChange}>
-                    <option value="">Select Number of Rooms</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                </select>
-            </label>
-            <label>Adults: 
-                <select name="adults" value={props.user.adults} onChange={props.handleChange}>
-                    <option value="">Select Number of Adults</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                </select>
-            </label>
-            <label>Nights: 
-                <select name="nights" value={props.user.nights} onChange={props.handleChange}>
-                    <option value="">Select Number of Nights</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                    <option value="7">7</option>
-                </select>
-            </label>
-            <button type="submit">Confirm Reservation</button>
+        <form onSubmit={props.handleConfirm} className="d-flex justify-content-around flex-wrap">
+            <div className="form-group">
+                <label>First Name: 
+                    <input type="text" name="firstName" className="form-control form-control-sm" value={props.info.firstName} onChange={props.handleChange}></input>
+                </label>
+            </div>
+            <div className="form-group">
+                <label>Last Name: 
+                    <input type="text" name="lastName" className="form-control form-control-sm" value={props.info.lastName} onChange={props.handleChange}></input>
+                </label>
+            </div>
+            <div className="form-group">
+                <label>Email: 
+                    <input type="email" name="email" className="form-control form-control-sm" value ={props.info.email} onChange={props.handleChange}></input>
+                </label>
+            </div>
+            <div className="form-group">
+                <label>Address: 
+                    <input type="text" name="address" className="form-control form-control-sm" value={props.info.address} onChange={props.handleChange}></input>
+                </label>
+            </div>
+            <div className="form-group">
+                <label>Rooms: 
+                    <select name="rooms" className="form-control form-control-sm" value={props.info.rooms} onChange={props.handleChange}>
+                        <option value="">Select Number of Rooms</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                    </select>
+                </label>
+            </div>
+            <div className="form-group">
+                <label>Adults: 
+                    <select name="adults" className="form-control form-control-sm" value={props.info.adults} onChange={props.handleChange}>
+                        <option value="">Select Number of Adults</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </label>
+            </div>
+            <div className="form-group">
+                <label>Nights: 
+                    <select name="nights" className="form-control form-control-sm" value={props.info.nights} onChange={props.handleChange}>
+                        <option value="">Select Number of Nights</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                    </select>
+                </label>
+            </div>
+            
+            <button type="submit" className="btn btn-sm">Confirm Reservation</button>
         </form>
     )
 }

@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import './BookingForm'
 import BookingForm from './BookingForm';
+import Modal from './Modal';
 
 class App extends React.Component {
   constructor(){
@@ -15,7 +16,8 @@ class App extends React.Component {
         address: "", 
         rooms: 0, 
         adults: 0, 
-        nights: 0
+        nights: 0, 
+        isModal: false
       
     }
     this.handleConfirm = this.handleConfirm.bind(this);
@@ -24,7 +26,9 @@ class App extends React.Component {
 
   handleConfirm(event){
     event.preventDefault();
-    
+    this.setState({
+      isModal: true
+    })
     console.log(this.state)
   }
 
@@ -37,8 +41,9 @@ class App extends React.Component {
 
   render(){
     return (
-      <div className="App">
-        <BookingForm user={this.state} handleConfirm={this.handleConfirm} handleChange={this.handleChange} />
+      <div className="w-50 p-3 mx-auto justify-content-center" >
+        <BookingForm info={this.state} handleConfirm={this.handleConfirm} handleChange={this.handleChange} />
+        <Modal isModal={this.state.isModal} info={this.state} />
       </div>
     );
   }
