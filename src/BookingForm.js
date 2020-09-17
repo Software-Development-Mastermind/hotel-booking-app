@@ -5,27 +5,27 @@ function BookingForm(props){
         <form onSubmit={props.handleConfirm} className="d-flex justify-content-around flex-wrap">
             <div className="form-group">
                 <label>First Name: 
-                    <input type="text" name="firstName" className="form-control form-control-sm" value={props.info.firstName} onChange={props.handleChange}></input>
+                    <input type="text" name="firstName" className="form-control form-control-sm" value={props.info.firstName} onChange={props.handleChange} requiredgit></input>
                 </label>
             </div>
             <div className="form-group">
                 <label>Last Name: 
-                    <input type="text" name="lastName" className="form-control form-control-sm" value={props.info.lastName} onChange={props.handleChange}></input>
+                    <input type="text" name="lastName" className="form-control form-control-sm" value={props.info.lastName} onChange={props.handleChange} requiredgit></input>
                 </label>
             </div>
             <div className="form-group">
                 <label>Email: 
-                    <input type="email" name="email" className="form-control form-control-sm" value ={props.info.email} onChange={props.handleChange}></input>
+                    <input type="email" name="email" className="form-control form-control-sm" value ={props.info.email} onChange={props.handleChange} requiredgit></input>
                 </label>
             </div>
             <div className="form-group">
                 <label>Address: 
-                    <input type="text" name="address" className="form-control form-control-sm" value={props.info.address} onChange={props.handleChange}></input>
+                    <input type="text" name="address" className="form-control form-control-sm" value={props.info.address} onChange={props.handleChange} requiredgit></input>
                 </label>
             </div>
             <div className="form-group">
                 <label>Rooms: 
-                    <select name="rooms" className="form-control form-control-sm" value={props.info.rooms} onChange={props.handleChange}>
+                    <select name="rooms" className="form-control form-control-sm" value={props.info.rooms} onChange={props.handleChange} requiredgit>
                         <option value="">Select Number of Rooms</option>
                         <option value="1">1</option>
                         <option value="2">2</option>
@@ -34,7 +34,7 @@ function BookingForm(props){
             </div>
             <div className="form-group">
                 <label>Adults: 
-                    <select name="adults" className="form-control form-control-sm" value={props.info.adults} onChange={props.handleChange}>
+                    <select name="adults" className="form-control form-control-sm" value={props.info.adults} onChange={props.handleChange} requiredgit>
                         <option value="">Select Number of Adults</option>
                         <option value="1">1</option>
                         <option value="2">2</option>
@@ -45,7 +45,7 @@ function BookingForm(props){
             </div>
             <div className="form-group">
                 <label>Nights: 
-                    <select name="nights" className="form-control form-control-sm" value={props.info.nights} onChange={props.handleChange}>
+                    <select name="nights" className="form-control form-control-sm" value={props.info.nights} onChange={props.handleChange} requiredgit>
                         <option value="">Select Number of Nights</option>
                         <option value="1">1</option>
                         <option value="2">2</option>
@@ -57,8 +57,8 @@ function BookingForm(props){
                     </select>
                 </label>
             </div>
-            
-            <button type="submit" className="btn btn-sm">Confirm Reservation</button>
+            <div className="break"></div>
+            <button type="submit" className="btn btn-sm confirm-btn">Confirm Reservation</button>
         </form>
     )
 }

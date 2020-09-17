@@ -9,11 +9,11 @@ class Modal extends React.Component{
         return (
             <div className="confirmation-modal">
                 <div className="modal-content">
-                    <span className="close"> {/* Eventually add an onClick attribute here to close the modal */ }
+                    <button className="close" onClick={this.props.closeModal}> {/* Eventually add an onClick attribute here to close the modal */ }
                         &times;
-                    </span>
-                    <div>
-                        <h1>Testing Modal</h1>
+                    </button>
+                    <div className="text-center">
+                        <h1>Reservation Confirmed</h1>
                         <p>Reservation set for {this.props.info.firstName} {this.props.info.lastName} of {this.props.info.address}</p>
                         <p>{this.props.info.rooms} Rooms for {this.props.info.nights} Nights</p>
                         <p>Number of Guests: {this.props.info.adults}</p>
