@@ -1,68 +1,22 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# JavaScript Hotel Booking App Using React
 
-## Available Scripts
+_Web Based Expense Tracker Using React and Bootstrap4_
 
-In the project directory, you can run:
+## Instructions
 
-### `npm start`
+Fill out each input in the form and click the button to make the reservation for my made up resort. Upon form submission, a modal will appear on the screen confirming the reservation. 
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Access the app [here](https://afternoon-sands-59834.herokuapp.com/)
 
-### `npm test`
+![ExpenseApp Screenshot](https://github.com/danielmurphy1/expense-tracker-react/blob/master/expense-tracker-react-screenshot.JPG)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Summary
 
-### `npm run build`
+I created this app to learn how to use React. Previously, I had created a similar expense tracker using HTML and Vanilla JavaScript (You can access my previous app [here](https://danielmurphy1.github.io/ExpenseTracker/)).
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Creating this app was my first attempt at using React. It was interesting to create this app using React knowing that I had already created a very similar one wihout it. In doing so, I had to shift my thinking into how React tracks and updates the Virtual DOM, rather than just manipulating the DOM using standard JavaScript in the previous application. To do so, I had to learn the basics of state and props, and to rely on updating and passing those to the components rather than DOM manipulation in standard JavaScript. This application was also my first venture into using Bootstrap for styling, which I enjoyed to learn and was able to see the potential for its continued used. 
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### Author
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- Dan Murphy Software Developer
