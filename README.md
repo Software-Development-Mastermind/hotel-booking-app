@@ -9,13 +9,13 @@ Fill out each input in the form and click the button to make the reservation for
 
 Access the app [here](https://afternoon-sands-59834.herokuapp.com/)
 
-![ExpenseApp Screenshot](https://github.com/danielmurphy1/expense-tracker-react/blob/master/expense-tracker-react-screenshot.JPG)
+![BookingApp Screenshot](https://github.com/danielmurphy1/hotel-booking-app/blob/master/src/images/hotel-app-screen.JPG)
 
 ### Summary
 
-I created this app to learn how to use React. Previously, I had created a similar expense tracker using HTML and Vanilla JavaScript (You can access my previous app [here](https://danielmurphy1.github.io/ExpenseTracker/)).
+I built this application to get more experience using React. As this was the second application that I have built using React, I found that I was able to use the unique features of React, such as state and props, much more easily and proficiently than in my first React application.
 
-Creating this app was my first attempt at using React. It was interesting to create this app using React knowing that I had already created a very similar one wihout it. In doing so, I had to shift my thinking into how React tracks and updates the Virtual DOM, rather than just manipulating the DOM using standard JavaScript in the previous application. To do so, I had to learn the basics of state and props, and to rely on updating and passing those to the components rather than DOM manipulation in standard JavaScript. This application was also my first venture into using Bootstrap for styling, which I enjoyed to learn and was able to see the potential for its continued used. 
+Moreover, in creating this application, I experimented with and learned how to create a modal component using React. I also was able to practice using Bootstrap more in styling this application. Again, because this was my second application using Bootstrap for styling, I was more comfortable in its execution. In regards to Bootstrap, I became much more comfortable using the Boostrap docs to find the styles that I needed and implementing them to meet my needs. 
 
 ### Author
 
