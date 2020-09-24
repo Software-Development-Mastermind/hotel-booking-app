@@ -1,6 +1,6 @@
 # JavaScript Hotel Booking App Using React
 
-_Web Based Expense Tracker Using React and Bootstrap4_
+_Web Based Hotel Booking App Using React and Bootstrap4_
 
 ## Instructions
 
