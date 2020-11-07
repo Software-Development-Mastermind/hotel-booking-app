@@ -1,16 +1,14 @@
 import React from 'react';
-//import './App.css';
-import './BookingForm'
-import BookingForm from './BookingForm';
-import Modal from './Modal';
-import Header from './Header';
+import './Components/BookingForm'
+import BookingForm from './Components/BookingForm';
+import Modal from './Components/Modal';
+import Header from './Components/Header';
 
 class App extends React.Component {
   constructor(){
     super();
 
     this.state = {
-      
         firstName: "", 
         lastName: "", 
         email: "",
@@ -19,7 +17,6 @@ class App extends React.Component {
         adults: 0, 
         nights: 0, 
         isModal: false
-      
     }
     this.handleConfirm = this.handleConfirm.bind(this);
     this.handleChange = this.handleChange.bind(this);
@@ -33,7 +30,6 @@ class App extends React.Component {
     })
     
   }
-
 
   handleChange(event){
     const {name, value} = event.target;

@@ -3,9 +3,12 @@
 _Web Based Hotel Booking App Using React and Bootstrap4_
 
 ## Instructions
+To Run Locally:
+1. Clone Repo from GitHub
+2. Run "npm install" in terminal to get needed dependencies
+3. Run "npm run start" in terminal to get development environment
 
 Fill out each input in the form and click the button to make the reservation for my made up resort. Upon form submission, a modal will appear on the screen confirming the reservation. 
-
 
 Access the app [here](https://pacific-fjord-04187.herokuapp.com/)
 
@@ -15,8 +18,8 @@ Access the app [here](https://pacific-fjord-04187.herokuapp.com/)
 
 I built this application to get more experience using React. As this was the second application that I have built using React, I found that I was able to use the unique features of React, such as state and props, much more easily and proficiently than in my first React application.
 
-Moreover, in creating this application, I experimented with and learned how to create a modal component using React. I also was able to practice using Bootstrap more in styling this application. Again, because this was my second application using Bootstrap for styling, I was more comfortable in its execution. In regards to Bootstrap, I became much more comfortable using the Boostrap docs to find the styles that I needed and implementing them to meet my needs. 
+Moreover, in creating this application, I experimented with and learned how to create a modal component using React. I also was able to practice using Bootstrap more in styling this application. Again, because this was my second application using Bootstrap for styling, I was more comfortable in its execution. In regards to Bootstrap, I became much more comfortable using the Boostrap docs to find the styles that I needed in order to implement them to meet my needs. 
 
 ### Author
 
-- Dan Murphy Software Developer
+- Dan Murphy, Software Developer
