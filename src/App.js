@@ -26,7 +26,7 @@ class App extends React.Component {
   handleConfirm(event){
     event.preventDefault();
     this.setState({
-      isModal: true,    
+      isModal: false,    
     })
     
   }
